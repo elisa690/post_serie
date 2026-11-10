@@ -3,7 +3,7 @@ const resposta = document.querySelector('#resposta');
 const lista = document.querySelector('#lista-series');
 const modelo = document.querySelector('#modelo-serie');
 
-const apiKey = 'cv_WG7CouBZ-SGRvGBDAgFp5-U5lxijMcyoGQ-0pBSumsw4dIvsQ3DHfr1P1As1JQll';
+const apiKey = 'cv_y0bXQ24o8wsqjX5wFWIOQVTVmZ-DEE3Xg9aPaCALXrsLK6KKH96DAc8VoVIe00A2';
 
 const apiUrl = 'https://api-ds.codeverse.dev.br/api/series';
 
@@ -25,6 +25,8 @@ async function buscarSeries() {
 
         //converter para JSON
         const resultado = await retorno.json();
+
+
 
         //Percorrer todos os series e montar o serie.
 
